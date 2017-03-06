@@ -1,0 +1,16 @@
+
+
+
+
+
+@mixin transition($value) {
+  -webkit-transition: $value ;
+  -moz-transition: $value ;
+  transition: $value ;
+}
+
+@mixin delay( $delay ) {
+  -webkit-animation-delay: $delay;
+  -moz-animation-delay: $delay;
+  animation-delay: $delay;
+}

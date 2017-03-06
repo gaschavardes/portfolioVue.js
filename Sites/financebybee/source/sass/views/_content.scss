@@ -1,0 +1,554 @@
+/* @group MUSIC */
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.content_en.main.french{
+	display: none;
+
+}
+
+
+.content.main.english{
+	display: none;
+}
+
+
+#content, #content_en {
+	width: 100vw;
+	position: relative;
+	overflow: hidden;
+
+  .content, .content_en {
+  	
+  	h2{
+		
+		top:100px;
+		font-family: "Big-john";
+		font-size: 30pt;
+		display: inline-block;
+  		}
+
+  	.services{
+  		position: relative;
+  		height: 750px;
+  		max-width: 1500px;
+  		margin : auto;
+
+  		h2{
+  			position: relative;
+  			margin-left: 40px;
+
+  		}
+  		h2:after{
+  			content: "";
+  			display: inline-block;
+  			position: absolute;
+  			width: 1000px;
+  			height: 3px;;
+  			background: #F8AC1D;
+  			right: 0px;
+  			bottom: 0px;
+
+
+  		}
+
+  		.multiple_item{
+			position: relative;
+  			width: calc(100% - 100px);
+			display: flex;
+  			justify-content : space-around;
+  			flex-direction : row;
+  			left: 0;
+  			right: 0;
+  			margin: auto;
+  			top: 250px;
+			.services_parts{
+				text-align: center;
+				position: relative;
+				width: 25%;
+				img{
+					position: relative;
+					left: 0;
+					right: 0;
+					margin: auto;
+				}
+				h3{
+					position: relative;
+					top: 50px;
+					color: #F8AC1D;
+					font-size: 12pt;
+					font-family: "Montserrat-Bold";
+
+				}
+				h3:before{
+					content: "";
+					display: inline-block;
+					position: absolute;
+					left: 0;
+					right: 0;
+					top: -20px;
+					margin: auto;
+					height: 1px;
+					width: 150px;
+					background: #D8D8D8;
+				}
+				.content_services{
+					position: absolute;
+					top: 200px;
+					font-family: "Montserrat-Light";
+					ul{
+						li{
+							margin-bottom: 30px;
+
+						}
+					}
+				}
+
+			}
+
+  		}
+
+  	}
+
+
+
+  	.experience{
+  		width: 100%;
+  		height: 1400px;
+  		position: relative;
+  		max-width: 1500px;
+  		margin : auto;
+		h2{
+			position: absolute;
+			right: 0;
+			margin-right: 40px;
+		}
+		h2:after{
+			content: "";
+			display: inline-block;
+			position: absolute;
+			width: 1000px;
+			height: 3px;;
+			background: #F8AC1D;
+			left: 0px;
+			bottom: 0px;
+		}
+		.experience_content{
+			position: relative;
+			top: 220px;
+			h3{
+				font-family: "Big-john";
+				font-size: 20pt;
+				color: #F8AC1D;
+				display: inline-block;
+			}
+			.experiences{
+				margin-bottom: 100px;
+			}
+			.experiences.left{
+				position: relative;
+				h3{
+					left:0;
+					margin-left: 110px;
+					position: relative;
+				}
+				h3:before{
+					content: "";
+					display: inline-block;
+					position: absolute;
+					width: 1000px;
+					height: 1px;
+					background: #F8AC1D;
+					right: calc(100% - 80px);
+					bottom: 0px;
+				}
+				.description{
+					position: relative;
+					left: 180px;
+					top: 20px;
+					max-width: 600px;
+
+					ul{
+						li,{
+							margin-bottom: 25px;
+							font-family: "Montserrat-Light";
+						}
+					}
+				}
+			}
+			.experiences.right{
+				position: relative;
+				text-align: right;
+				h3{
+					right:0;
+					margin-right: 110px;
+					text-align: right;
+					position: relative;
+					// width: 100%;
+
+				}
+				h3:before{
+					content: "";
+					display: inline-block;
+					position: absolute;
+					width: 1000px;
+					height: 1px;
+					background: #F8AC1D;
+					left: calc(100% - 80px);
+					bottom: 0px;
+				}
+				.description{
+					display: inline;
+					position: relative;
+					right: 180px;
+					top: 20px;
+					max-width: 600px;
+					p{
+						margin-bottom: 25px;
+							font-family: "Montserrat-Light";
+					}
+					ul{
+						li{
+							margin-bottom: 25px;
+							font-family: "Montserrat-Light";
+						}
+					}
+				}
+			}
+
+
+		}
+
+  	}
+  	.values{
+  		position: relative;
+  		height: 700px;
+  		max-width: 1500px;
+  		margin : auto;
+  		h2{
+  			position: relative;
+  			margin-left: 40px;
+
+  		}
+  		h2:after{
+  			content: "";
+  			display: inline-block;
+  			position: absolute;
+  			width: 1000px;
+  			height: 3px;;
+  			background: #F8AC1D;
+  			right: 0px;
+  			bottom: 0px;
+
+
+  		}
+  		.values_points{
+  			display: flex;
+  			justify-content : space-between;
+  			max-width: 1000px;
+  			position: absolute;
+  			left : 0;
+  			right: 0;
+  			margin: auto;
+  			top: 200px;
+
+  			.item{
+  				text-align: center;
+				position: relative;
+				width: 50%;
+
+  				img{
+  					position: absolute;
+  					left: 0;
+  					right: 0;
+  					margin: auto;
+  				}
+  				h3{
+  					position: relative;
+  					top: 150px;
+  					color: #F8AC1D;
+  					font-size: 12pt;
+  					font-family: "Montserrat-Bold";
+
+  				}
+  				h3:before{
+  					content: "";
+  					display: inline-block;
+  					position: absolute;
+  					left: 0;
+  					right: 0;
+  					top: -20px;
+  					margin: auto;
+  					height: 1px;
+  					width: 150px;
+  					background: #D8D8D8;
+  				}
+  				.content_values{
+					position: absolute;
+					top: 200px;
+					font-family: "Montserrat-Light";
+					ul{
+						li{
+							margin-bottom: 30px;
+
+						}
+					}
+				}
+  			}
+  		}
+
+  	}
+  	.contact{
+  		width: 100%;
+  		height: 800px;
+  		position: relative;
+  		max-width: 1500px;
+  		margin : auto;
+		h2{
+			position: absolute;
+			right: 0;
+			margin-right: 40px;
+		}
+		h2:after{
+			content: "";
+			display: inline-block;
+			position: absolute;
+			width: 1000px;
+			height: 3px;;
+			background: #F8AC1D;
+			left: 0px;
+			bottom: 0px;
+		}
+		form{
+			position: relative;
+			margin: auto;
+			width: 630px;
+			top: 250px;
+			
+
+			input{
+				border-bottom: solid #979797 1px;
+				width: 240px;
+				height: 20px;
+				font-family: "Montserrat-Light";
+			}
+			input:focus::-webkit-input-placeholder {
+				color: transparent;
+			}
+
+			.info{
+				height: 180px;
+				float: left;
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+			}
+			.content{
+				height: 180px;
+				position: relative;
+				float: left;
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+				margin-left: 80px;
+
+				.message{
+					height: 100%;
+
+					textarea{
+						height: 100%;
+						width: 300px;
+						border: none;
+						border-bottom: solid 1px #979797;
+					}
+
+
+				}
+				.submit{
+					input{
+						background: transparent;
+					    width: 30%;
+					    height: 31px;
+					    right: 0;
+					    position: absolute;
+					    margin-top: 20px;
+					    font-family: "Montserrat-Light";
+					    font-size: 13pt;
+					    // border-bottom: 2px solid #F8AC1D;
+					}
+					.success{
+						width: 30%;
+						height: 31px;
+						right: 0;
+						position: absolute;
+						margin-top: 20px;
+						font-family: "Montserrat-Light";
+						font-size: 13pt;
+						background-color: #7FDD4C;
+						background-image: url('../images/check.png');
+						background-size: 30%;
+						background-repeat: no-repeat;
+						background-position: 50% 50%;
+						-webkit-transform: scaleY(0);
+						-ms-transform: scaleY(0);
+						-o-transform: scaleY(0);
+						transform: scaleY(0);
+						-webkit-transition: all 0.5s;
+						-o-transition: all 0.5s;
+						transition: all 0.5s;
+						border-radius: 3px;
+					}
+					.fail{
+						width: 30%;
+						height: 31px;
+						right: 90px;
+						position: absolute;
+						margin-top: 20px;
+						background-color: #FF0000;
+						background-image: url('../images/wrong.png');
+						background-size: 30%;
+						background-repeat: no-repeat;
+						background-position: 50% 50%;
+						-webkit-transform: scaleX(0);
+						-ms-transform: scaleX(0);
+						-o-transform: scaleX(0);
+						transform: scaleX(0);
+						-webkit-transition: all 0.5s;
+						-o-transition: all 0.5s;
+						transition: all 0.5s;
+						border-radius: 3px;
+					}
+					.fail.sent{
+						-webkit-transform: scaleX(1);
+						-ms-transform: scaleX(1);
+						-o-transform: scaleX(1);
+						transform: scaleX(1);
+						animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+						 transform: translate3d(0, 0, 0);
+						 backface-visibility: hidden;
+						 perspective: 1000px;
+						 // animation-iteration-count: infinite;
+					}
+					.success.sent{
+						-webkit-transform: scaleY(1);
+						-ms-transform: scaleY(1);
+						-o-transform: scaleY(1);
+						transform: scaleY(1);
+					}
+
+				}
+				.submit:after{
+					content: "";
+					width: 30%;
+					height: 2px;
+					bottom: -51px;
+					right: 0;
+					background-color: #F8AC1D;
+					position: absolute;
+					display: inline-block;
+					-webkit-transform: scaleX(0);
+					-ms-transform: scaleX(0);
+					-o-transform: scaleX(0);
+					transform: scaleX(0);
+					-webkit-transition: all 0.5s;
+					-o-transition: all 0.5s;
+					transition: all 0.5s;
+				}
+				.submit:hover:after{
+					-webkit-transform: scaleX(1);
+					-ms-transform: scaleX(1);
+					-o-transform: scaleX(1);
+					transform: scaleX(1);
+					// -webkit-transform-origin: 0;
+					// -moz-transform-origin: 0;
+					// -ms-transform-origin: 0;
+					// -o-transform-origin: 0;
+					// transform-origin: 0;
+				}
+
+			}
+			
+			::-webkit-input-placeholder {
+			   top: 0px;
+			   font-family: "Montserrat-Light";
+			   font-size: 10pt;
+			}
+
+			:-moz-placeholder { /* Firefox 18- */
+			   top: 0px; 
+			   font-family: "Montserrat-Light";
+			   font-size: 10pt;
+			}
+
+			::-moz-placeholder {  /* Firefox 19+ */
+			   top: 0px;
+			   font-family: "Montserrat-Light";
+			   font-size: 10pt; 
+			}
+
+			:-ms-input-placeholder {  
+			   top: 0px;
+			   font-family: "Montserrat-Light";
+			   font-size: 10pt; 
+			}
+
+		}
+		.info_bee{
+			text-align: center;
+			width: 100%;
+			position: absolute;
+			bottom: 120px;
+			font-family: "Montserrat-Light";
+		}
+		.legal{
+			text-align: center;
+			width: 80%;
+			position: absolute;
+			bottom: 50px;
+			font-family: "Montserrat-Light";
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		.copyright{
+			text-align: right;
+			width: 100%;
+			position: absolute;
+			bottom: 10px;
+			font-family: "Montserrat-Light";
+		}
+  	}
+  	.wrong_answer{
+  		border-bottom:1px solid red !important;
+  	}
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* @end MUSIC */
